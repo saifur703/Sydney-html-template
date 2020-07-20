@@ -219,7 +219,7 @@ li.quote-btn a:hover {
 }
 
 .welcome-bottom-area h2 {
-    font-size: 26px;
+    font-size: 30px;
     color: #333;
     font-weight: 700;
 }
@@ -250,4 +250,22 @@ li.quote-btn a:hover {
 .single-service img {
     margin: 30px 0;
     max-width: 130px;
+}
+
+.gray-bg-area {
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.overlay1.white::before,
+.overlay1.white::after {
+    background: rgba(255, 255, 255, .3);
+}
+
+.gray-bg-area .boxed-btn {
+    margin-top: 30px;
+}
+
+.gray-bg-area a {
+    font-weight: 600;
 }

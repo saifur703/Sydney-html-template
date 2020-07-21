@@ -504,3 +504,12 @@ a.boxed-btn {
     width: 100%;
     z-index: 9999;
 }
+
+.single-service-img {
+    height: 182px;
+}
+
+.single-service-img img {
+    height: 140px;
+    margin: 0;
+}

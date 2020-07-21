@@ -1,8 +1,5 @@
 /*	Medium Layout: 1280px	*/
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-	
-	
-}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
 
 
 
@@ -19,21 +16,40 @@
 
 
 /*		Tablet and Mobile Layout         */
-@media only screen and (max-width: 991px) {
-    
-
-    
-}
+@media only screen and (max-width: 991px) {}
 
 
 /*		Mobile Layout: 320px.         */
 
 @media only screen and (max-width: 767px) {
-	
-	.column {
-		width: 300px;
+
+	#ourmenu {
+		display: none;
 	}
-	
+
+	.slicknav_menu {
+		display: block;
+	}
+
+	.welcome-area {
+		height: auto;
+		padding: 100px 0;
+		padding-top: 250px;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.overlay1,
+	.overlay2 {
+		display: none;
+	}
+
+	.welcome-area h1 {
+		font-size: 40px;
+	}
+
 }
 
 
@@ -41,7 +57,7 @@
 /*		Wide Mobile Layout: 480px.        */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+
 	.column {
 		width: 450px;
 	}
@@ -57,12 +73,9 @@
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
 
-@media 
-	only screen and (-webkit-min-device-pixel-ratio: 2),
-	only screen and (min-device-pixel-ratio: 2) {
-	
-	body {
-	
-	}
-	
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+	body {}
+
 }

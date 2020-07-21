@@ -68,16 +68,23 @@ li.quote-btn a:hover {
     background-color: rgba(243, 190, 52, .6);
 }
 
+.main-header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
 .welcome-area {
     background-image: url("assets/img/banner.jpg");
     background-repeat: no-repeat;
     background-color: #ddd;
     background-position: center center;
     background-size: cover;
-    height: 520px;
+    height: 620px;
     position: relative;
     z-index: 1;
     color: #fff;
+    padding-top: 100px;
 }
 
 .welcome-area::after {
@@ -465,4 +472,35 @@ a.boxed-btn {
 .single-footer li a {
     padding: 2px 0;
     display: block;
+}
+
+.scrollTop {
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 15px;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    border-radius: 5px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.scrollTop a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.slicknav_menu {
+    display: none;
+}
+
+.slicknav_menu {
+    position: fixed;
+    left: 0;
+    top: 140px;
+    width: 100%;
+    z-index: 9999;
 }

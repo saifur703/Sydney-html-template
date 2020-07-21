@@ -9,7 +9,8 @@ Notes: Hand Coded for Fiverr
     padding: 5px 0;
 }
 
-.header-top ul {
+.header-top ul,
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -24,6 +25,7 @@ Notes: Hand Coded for Fiverr
     font-size: 15px;
     color: #fff;
     padding-left: 10px;
+    font-weight: 600;
 }
 
 .header-top li a:hover {
@@ -164,7 +166,8 @@ li.quote-btn a:hover {
     font-weight: 300;
 }
 
-.boxed-btn {
+.boxed-btn,
+a.boxed-btn {
     background: #f3be34;
     border: none;
     color: #fff;
@@ -178,11 +181,13 @@ li.quote-btn a:hover {
     margin-top: 30px;
 }
 
-.boxed-btn {
+.boxed-btn,
+a.boxed-btn {
     position: relative;
 }
 
-.boxed-btn svg {
+.boxed-btn svg,
+a.boxed-btn svg {
     position: absolute;
     right: 20px;
     top: 50%;
@@ -192,15 +197,18 @@ li.quote-btn a:hover {
     display: none;
 }
 
-.boxed-btn:hover svg {
+.boxed-btn:hover svg,
+a.boxed-btn:hover svg {
     display: inline-block;
 }
 
-.boxed-btn:hover {
+.boxed-btn:hover,
+a.boxed-btn:hover {
     padding-right: 40px;
 }
 
-.boxed-btn {
+.boxed-btn,
+a.boxed-btn {
     transition: .3s;
     -webkit-transition: .3s;
     -moz-transition: .3s;
@@ -268,4 +276,193 @@ li.quote-btn a:hover {
 
 .gray-bg-area a {
     font-weight: 600;
+}
+
+.gray-bg-area h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.why-choose-area {
+    padding: 70px 0;
+}
+
+.why-choose-area h2 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.single-why-choose {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.why-choose-icon {
+    display: inline-block;
+    color: #f3be34;
+    border: 2px solid #f3be34;
+    width: 120px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.why-choose-text {
+    padding-left: 50px;
+}
+
+.why-choose-icon.small {
+    width: 45px;
+}
+
+.dark-gray-area {
+    background: #515151;
+    padding: 50px 0;
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.dark-gray-area h2 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.party-area {
+    padding: 50px 0;
+    line-height: 1.9;
+}
+
+.party-area h2 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.party-area a {
+    font-weight: 600;
+}
+
+.testimonial-area {
+    background: url("assets/img/bg1.jpg") no-repeat scroll center center / cover;
+    overflow: hidden;
+    height: 600px;
+}
+
+.testimonials {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 50px 70px;
+}
+
+.single-testimonial {
+    color: #474747;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+.single-testimonial .boxed-btn {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+
+.testimonials .owl-nav div {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    color: #fff;
+    font-size: 35px;
+}
+
+.testimonials .owl-nav .owl-next {
+    left: auto;
+    right: 15px;
+}
+
+.testimonials .owl-nav div {
+    display: none;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.testimonials:hover .owl-nav div {
+    display: block;
+    left: 30px;
+}
+
+.testimonials:hover .owl-nav .owl-next {
+    right: 30px;
+    left: auto;
+}
+
+.award-area {
+    background: #f9f9f9;
+    padding: 70px 0;
+    text-align: center;
+    line-height: 1.9;
+    overflow: hidden;
+}
+
+.award-area h2 {
+    font-size: 40px;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.award-area .single-service img {
+    max-width: 200px;
+    min-height: 220px;
+}
+
+.video-area {
+    padding: 70px 0;
+}
+
+.video-area h2 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.video-area .boxed-btn {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.footer-area {
+    background: #363636;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.copyright {
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.single-footer h3,
+.single-footer h4 {
+    color: #fff;
+    line-height: 1.6;
+}
+
+.single-footer li a {
+    padding: 2px 0;
+    display: block;
 }

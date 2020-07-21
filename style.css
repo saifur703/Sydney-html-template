@@ -504,3 +504,25 @@ a.boxed-btn {
     width: 100%;
     z-index: 9999;
 }
+
+.single-service-img {
+    height: 182px;
+}
+
+.single-service-img img {
+    height: 140px;
+    margin: 0;
+}
+
+
+/* shape */
+
+.hexagon {
+    width: 100%;
+    height: 130px;
+    clip-path: polygon(50% 0%, 100% 30%, 100% 80%, 70% 100%, 0% 80%, 0% 30%);
+    margin-top: -50px;
+    position: relative;
+    z-index: 9;
+    background: #fff;
+}

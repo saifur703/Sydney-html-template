@@ -41,13 +41,77 @@
 		overflow-x: hidden;
 	}
 
-	.overlay1,
+	/* .overlay1,
 	.overlay2 {
 		display: none;
+	} */
+	.overlay1::after,
+	.overlay1::before {
+		top: -250px;
+	}
+
+	.overlay2::before,
+	.overlay2::after {
+		bottom: -175px;
+	}
+
+	.testimonial-area .overlay2::before,
+	.testimonial-area .overlay2::after {
+		bottom: -175px;
+		width: 100%;
+		height: 140px;
 	}
 
 	.welcome-area h1 {
 		font-size: 40px;
+	}
+
+	.slicknav_menu {
+		background: transparent;
+	}
+
+	.logo {
+		max-width: 50%;
+	}
+
+	.gray-bg-area {
+		padding: 30px 0;
+	}
+
+	.dark-gray-area {
+		text-align: center;
+	}
+
+	.dark-gray-area a {
+		text-align: center;
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.hexagon {
+		clip-path: polygon(50% 0%, 100% 30%, 100% 80%, 50% 100%, 0% 80%, 0% 30%);
+		margin-top: 50px;
+	}
+
+	.testimonial-area {
+		height: auto;
+		padding: 110px 0;
+
+	}
+
+	.single-service {
+		padding: 20px 0;
+	}
+
+	.overlay1.white::before,
+	.overlay1.white::after {
+		width: 100%;
+		height: 165px;
+	}
+
+	.testimonial-area .overlay1,
+	.testimonial-area .overlay2 {
+		height: 0;
 	}
 
 }
